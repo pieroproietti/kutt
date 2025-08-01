@@ -87,3 +87,5 @@ REPORT_EMAIL=piero.proietti@gmail.com
 
 # Optional - Support email to show on the app
 CONTACT_EMAIL=piero.proietti@gmail.com
+
+npm run dev
