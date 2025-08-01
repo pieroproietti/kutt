@@ -1,0 +1,24 @@
+# Optional - App port to run on
+export PORT=4000
+
+# Optional - The name of the site where Kutt is hosted
+export SITE_NAME=penguins-eggs
+
+# Optional - The domain that this website is on
+export DEFAULT_DOMAIN=localhost:4000
+
+# Required - A passphrase to encrypt JWT. Use a random long string
+export JWT_SECRET="12345678"
+
+# Optional - Database client. Available clients for the supported databases:
+# pg | better-sqlite3 | mysql2
+# other supported drivers that you can use but you have to manually install them with npm:
+# pg-native | sqlite3 | mysql
+export DB_CLIENT=better-sqlite3
+
+# Optional - SQLite database file path
+# Only if you're using SQLite
+export DB_FILENAME=db/data
+npm run dev
+
+
